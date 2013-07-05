@@ -5,10 +5,10 @@ set nuw=3
 set laststatus=2 
 set statusline=%<%f%h%m%r%=%b\ 0x%B\ \ %l,%c%V\ %P
 "hi Comment guifg=#cec8b1
-"highlight CursorLine  term=underline  guibg=#555555  cterm=underline
+"hi CursorLine  term=underline  guibg=#555555  cterm=underline
 
 "///////////////////////////////////
-"GVIM ONLY SETTINGS
+"GVIM-ONLY SETTINGS
 "///////////////////////////////////
 if has("gui_running") 
   set transparency=5
